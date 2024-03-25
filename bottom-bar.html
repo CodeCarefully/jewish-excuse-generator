@@ -7,11 +7,11 @@ You want to include these scripts in your head:
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-WaIg8btvO6NehjzVrOjFrC/Z8QwI0FmJjKzezuFNmOFW8Gv+IgSULNf/1UGRRjzTJPTPuEh4tO4+4YsJNAMyQw==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <script src="https://use.fontawesome.com/efc83ea599.js"></script>
     <script>
-        fetch('bottom-bar.html')
-          .then(response => response.text())
-          .then(data => {
-            document.getElementById('include-bottom-bar').innerHTML = data;
-          });
+      fetch('bottom-bar.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('include-bottom-bar').innerHTML = data;
+        });
     </script>
 
 And in your body, put:
